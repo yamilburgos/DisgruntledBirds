@@ -56,7 +56,7 @@ Some data has been provided for you in a json file.
 
 ## Reading and videos
 * Read the enviroment variable section of [this](https://medium.com/javascript-scene/introduction-to-node-express-90c431f9e6fd) article.
-* Read all three pages of [this article](http://www.databasejournal.com/sqletc/article.php/1469521/Introduction-to-Relational-Databases.htm)
+* Read all three pages of [this SQL article](http://www.databasejournal.com/sqletc/article.php/1469521/Introduction-to-Relational-Databases.htm) The site looks like it should be hosted at angelfire but the content is solid
 * Watch the following videos
   - [SQL video](https://www.youtube.com/watch?v=h8IWmmxIyS0)
   - [SQL video](https://www.youtube.com/watch?v=4q-keGvUnag)
