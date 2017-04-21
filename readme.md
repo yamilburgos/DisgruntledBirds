@@ -60,6 +60,7 @@ Some data has been provided for you in a json file.
 * Watch the following videos
   - [SQL video](https://www.youtube.com/watch?v=h8IWmmxIyS0)
   - [SQL video](https://www.youtube.com/watch?v=4q-keGvUnag)
+  - [SQL video](https://www.youtube.com/watch?v=V5DyvUfsboA) This guy's Mustache...
 
 ## Deliverables
 * A link to your repo
