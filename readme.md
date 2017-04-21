@@ -30,14 +30,14 @@ Some data has been provided for you in a json file.
 * `/angry-birds/:id` should **render** a view of JUST the angry bird with the matching ID. This should have the bird's name, ability, image, and group visible on the page, as well as links back to `/` and `/angry-birds`
 * How would you access the id when visiting `/angry-birds/4`? 
 
-Part 2 - Filtering
+#### Part 2 - Filtering
 
 * Now we're going to expand the filtering capabilities of the Angry Birds app
 * Edit the `/angry-birds` route to handle query parameters of 'group', 'species', and 'feels'
 * Start with testing just one parameter, then increment to exactly two, and then all three
 * The page should render an angry bird that matches ALL the criteria of our query parameters - this is not about sorting them into any particular order
 
-###### Bonus:  Part 3 - Multiple Filters
+#### Bonus:  Part 3 - Multiple Filters
 * Edit the filter function to be able to handle any number of the parameters at a time
 * This should not look like a bunch of if conditions regarding the number of parameters, or which combination of parameters are chosen
 
@@ -49,7 +49,7 @@ Part 2 - Filtering
 * Each bird should have their own card section
 * Each birds individual page, found at `/angry-birds/BIRDS_ID` also doesn't have much on it. Organize all the information into a card.
 
-###### Bonus: Advanced organizing
+#### Bonus: Advanced organizing
 * This page desperately needs a modal.
 * Don't tell the UXDI instructors, as this likely isn't great design, but clicking on the card should toggle the modal
 * The modal should be fixed across the entire screen, with a fully opaque section in the middle with the bird's image
