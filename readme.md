@@ -21,7 +21,7 @@ Some data has been provided for you in a json file.
 
 * Now we're going to build an express app that can handle data
 * Create a new directory called `angry-birds`, with a file called `index.js` and any other files you may need for the below (e.g views).
-* In the `index.js` file, require all modules you need and invoke them as necessary.
+* Use express generator to generate the basic file structure for your project
 * Ensure that your server is listening for a port - have it log 'Listening on Port PORTNUMBER'  
 * Read the angry_birds.json file and save that array to a variable that will act like a database
 * Write three GET routes: `/`, `/angry-birds` and `/angry-birds/:id`:
