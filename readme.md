@@ -54,9 +54,12 @@ Some data has been provided for you in a json file.
 * The modal should be fixed across the entire screen, with a fully opaque section in the middle with the bird's image
 * Clicking the bird's image will close the modal
 
-## Reading
-* Read the enviroment variable section of [this](https://medium.com/javascript-scene/introduction-to-node-express-90c431f9e6fd)
-* SQL into tbd
+## Reading and videos
+* Read the enviroment variable section of [this](https://medium.com/javascript-scene/introduction-to-node-express-90c431f9e6fd) article.
+* Read all three pages of [this article](http://www.databasejournal.com/sqletc/article.php/1469521/Introduction-to-Relational-Databases.htm)
+* Watch the following videos
+  - [SQL video](https://www.youtube.com/watch?v=h8IWmmxIyS0)
+  - [SQL video](https://www.youtube.com/watch?v=4q-keGvUnag)
 
 ## Deliverables
 * A link to your repo
