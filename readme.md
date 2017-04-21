@@ -11,10 +11,9 @@ Some data has been provided for you in a json file.
 #### Part 0 - Before You Start - Think about how you style your code.
 
 * Quite possibly the most important thing you'll need to do as a programmer is write clean, styled code. It doesn't need to work perfectly, or at all, because if you have clean code, then you can easily work with others to resolve your functional issues and others can easily read through your code to provide feedback.
-* Below will be links to style guides.  Skim through and update your weekend's hw to be stylistically "on fleek".
-* A few things to focus on - proper indentation (possibly the most important), comments, declaration of variables
+* A few things to focus on - proper indentation (possibly the most important), comments, declaration of variables.
 * As a reminder, we use the [AirBnB Styleguide](https://github.com/airbnb/javascript). We're all capable of improving our style - on one cursory glance through I saw at least three things I do poorly and can improve on.
-* Remeber to use your freshly installed eslint to check your code for errors!
+* Remember to use your freshly installed eslint to check your code for errors!
 
 
 #### Part 1 - Express with Data
