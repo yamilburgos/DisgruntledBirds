@@ -14,9 +14,6 @@ router.get('/angry-birds', function(req, res, next) {
 	var queryObject = url.parse(req.url, true).query;
 	var passedBirds = _.where(angryObject, queryObject);
 
-	console.log("This is ", queryObject);
-	console.log("Testing: ", passedBirds);
-
  	res.render('allBirds', { 
   		title: 'All Angry Birds',
  		array: passedBirds

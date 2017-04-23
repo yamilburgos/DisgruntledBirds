@@ -8,13 +8,19 @@
     <h1><%=title%></h1>
 	<p><a href="/">Go Back</a></p>
 
-	<span>
+	<span id="board">
 		<% for (var i = 0; i < array.length; i++) { %>
-			<p><%=array[i].name%></p>
-			<p><%=array[i].abilities%></p>
-			<p><%=array[i].group%></p>
-			<img src=<%=array[i].image%>
-			<p><a href="/angry-birds/<%=i%>">More</a></p>
+			<div id="cell">
+			<a href="/angry-birds/<%=i%>">
+				<img src=<%=array[i].image%>
+				<br>
+				<p><%=array[i].name%></p>
+				<p><%=array[i].abilities%></p>
+				<p><%=array[i].group%></p>
+				<p><%=array[i].species%></p>
+				<p><%=array[i].feels%></p>
+			</a>
+			</div>
 		<% } %>
 	</span>
   </body>
