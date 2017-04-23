@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 var fs = require("fs");
-var angryObject = JSON.parse(fs.readFileSync("angry_birds.json"));
+var angryObject = JSON.parse(fs.readFileSync("bin/angry_birds.json"));
 var url = require('url');
 var _ = require("underscore");
 
