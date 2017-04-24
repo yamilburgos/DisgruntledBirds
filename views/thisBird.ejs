@@ -2,15 +2,23 @@
 <html>
   <head>
     <title><%=entry.name%></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
   </head>
   <body>
-	<p><a href="/angry-birds">Go To All</a></p>
-	<p><a href="/">Go Back To Start</a></p>
+	<h1 class="heading"><%=entry.name%></h1>
+	<p><a class="pageLink" href="/angry-birds">Go Back One</a></p>
+	<p><a class="pageLink" href="/">Go Back To Start</a></p>
 
-    <h1><%=entry.name%></h1>
-	<p><%=entry.abilities%></p>
-	<p><%=entry.group%></p>
-	<img src=<%=entry.image%>
+		<span id="board">
+			<div id="cell">
+				<img src=<%=entry.image%>
+    			<br>
+				<p><%=entry.name%></p>
+				<p><%=entry.abilities%></p>
+				<p><%=entry.group%></p>
+				<p><%=entry.species%></p>
+				<p><%=entry.feels%></p>
+			</div>
+		</span>
 	</body>
 </html>

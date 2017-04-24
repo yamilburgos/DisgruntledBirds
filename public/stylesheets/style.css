@@ -10,9 +10,15 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
 }
 
-#titleScreen {
-  	font-size: 50px; 
+.heading {
+  	font-size: 75px; 
   	text-align: center;
+}
+
+.pageLink {
+	font-size: 30px;
+	text-decoration: underline;
+	color: blue;
 }
 
 #board {
@@ -43,6 +49,6 @@ p, a {
 }
 
 img {
-	width: 50%;
+	width: 70%;
 	height: 50%;
 }
