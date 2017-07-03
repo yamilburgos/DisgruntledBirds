@@ -9,6 +9,14 @@
 ![](images/demo2.png)
 ![](images/demo3.png)
 
+## Installation & Instructions
+OS X & Linux:
+
+```sh
+npm install --save
+npm start
+```
+
 ## Meta
 [Yamil Burgos](https://github.com/yamilburgos/) – yamil.burgos1293@gmail.com
 
