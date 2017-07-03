@@ -16,6 +16,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+var gulp = require('gulp');
+var deploy = require('gulp-gh-pages');
+
+gulp.task('deploy', function() {
+	return gulp.src("./dist/**.*").pipe(deploy0())
+})
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
